@@ -8,7 +8,7 @@ function App() {
     <div className='container'>
       <TextInput />
       <div className="btn-container">
-        <Button title='Descriptografar' color='blue' />
+        <Button title='Criptografar' color='blue' />
         <Button title='Descriptografar' color='grey' />
       </div>
     </div>
