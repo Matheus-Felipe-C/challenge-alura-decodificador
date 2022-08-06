@@ -7,7 +7,7 @@ export default function TextInput() {
             <img src={logo} alt="" className="image" />
             <div className='inputArea'>
                 <textarea name="textInput" className="textInput" placeholder='Digite o seu texto'></textarea>
-                <p>Apenas letras maiúsculas e sem acento</p>
+                <p><i class="fa-solid fa-circle-exclamation"></i> Apenas letras minúsculas e sem acento</p>
             </div>
         </div>
     )
