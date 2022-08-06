@@ -1,9 +1,12 @@
 import './App.css'
+import TextInput from './assets/components/Textinput/TextInput'
 
 function App() {
 
   return (
-    <h1>Hello world!</h1>
+    <div>
+      <TextInput />
+    </div>
   )
 }
 
