@@ -1,0 +1,18 @@
+.result {
+    background-color: white;
+    width: 25em;
+    height: 35em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.notFound {
+    width: 230px;
+}
+
+p strong {
+    font-size: 26px;
+}
