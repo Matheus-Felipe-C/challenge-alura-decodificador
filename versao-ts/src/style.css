@@ -25,6 +25,10 @@ header img {
   flex-wrap: wrap;
 }
 
+.main .warning {
+  margin-top: 80px;
+}
+
 /* Input and Result */
 
 #textInput {
