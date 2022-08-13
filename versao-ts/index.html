@@ -12,16 +12,18 @@
       <img src="./src/img/logo.png" alt="Logo">
     </header>
     <main class="main">
-      <input type="text" placeholder="Digite o seu texto">
+      <textarea name="textinput" id="textInput" cols="60" rows="20" placeholder="Digite o seu texto"></textarea>
+      <div class="result">
+        <img src="./src/img/not-found.svg" alt="Texto não encontrado">
+        <p><strong>Nenhuma mensagem encontrada</strong></p>
+        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+      </div>
       <div class="btn-container">
         <button>Criptografar</button>
         <button>Descriptografar</button>
       </div>
     </main>
-    <div class="result">
-      <img src="./src/img/not-found.svg" alt="Texto não encontrado">
-    </div>
-
+      
     <script src="./src/encriptador.ts"></script>
   </body>
 </html>
