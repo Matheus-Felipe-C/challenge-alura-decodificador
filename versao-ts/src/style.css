@@ -59,6 +59,15 @@ header img {
   box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
 
+#result-text {
+  color: #0A3871;
+  font-size: 25px;
+  flex: 1;
+  padding: 20px;
+  word-break: break-all;
+  text-align: left;
+}
+
 .notFound {
   width: 230px;
 }
