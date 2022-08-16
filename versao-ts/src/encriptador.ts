@@ -19,7 +19,7 @@ function encriptar() {
 
             result.innerHTML = `
             <p id='result-text'>${text}</p>
-            <button id='copy' onClick="copiar()">Copiar</button>
+            <button id='copy' class="btn grey" onClick="copiar()">Copiar</button>
             `
         }
     }
@@ -40,7 +40,7 @@ function descriptar() {
 
             result.innerHTML = `
             <p id='result-text'>${text}</p>
-            <button id='copy' onClick="copiar()">Copiar</button>`
+            <button id='copy' class="btn grey" onClick="copiar()">Copiar</button>`
         }
     }
 }
