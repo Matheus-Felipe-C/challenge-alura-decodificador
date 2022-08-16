@@ -49,7 +49,7 @@ function copiar() {
     let text = document.getElementById('result-text')?.innerText
     if (text) {
         navigator.clipboard.writeText(text).then(() => {
-            alert(text)
+            alert('Texto copiado com sucesso!')
         })
     }
 }
