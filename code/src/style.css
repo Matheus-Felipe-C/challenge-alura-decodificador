@@ -61,10 +61,13 @@ header img {
 
 #result-text {
   color: #0A3871;
-  font-size: 25px;
   flex: 1;
   padding: 20px;
+  font-size: 25px;
   text-align: left;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  word-break: break-word;
 }
 
 .notFound {
